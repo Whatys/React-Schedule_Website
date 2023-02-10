@@ -1,0 +1,90 @@
+body{
+    background-color:#333333;
+}
+
+
+@font-face {
+    font-family: "Uni-Sans";
+    src: url('./Fonts/uni_sans_heavy-webfont.woff');
+}
+
+.Uni{
+    font-family: "Uni-Sans";
+}
+
+.schedule__lessons{
+    margin: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.schedule__lessons-block{
+    width: 234px;
+    height: 822px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left:16px;
+    
+}
+
+.schedule__title-block{
+  
+    width: 203px;
+    height: 84px;
+    background-image:url('./Images/Title.png');
+    border-radius: 5px;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+   
+    
+}
+
+.schedule__title-block p{
+    position: relative;
+    bottom: 10px;
+    
+}
+
+.schedule__lessons-all{
+    margin-top: 85px;
+}
+
+.schedule__leson{
+    width: 204px;
+    height: 123px;
+    background-color:#FFD3D3;
+    border-radius: 5px;
+    margin-top: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lesson-1{
+    background-image: url('./Images/lesson_1.png');
+}
+.lesson-2{
+    background-image: url('./Images/lesson_2.png');
+}
+.lesson-3{
+    background-image: url('./Images/lesson_3.png');
+}
+.lesson-4{
+    background-image: url('./Images/lesson_4.png');
+}
+.lesson-5{
+    background-image: url('./Images/lesson_5.png');
+}
