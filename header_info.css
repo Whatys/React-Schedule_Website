@@ -1,0 +1,26 @@
+.schedule__start-info{
+    padding: 25px 25px;
+    height: 200px;
+}
+
+.schedule__legend{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    width: 164px;
+    height: 100px;
+    font-family: "Uni-Sans";
+}
+
+.schedule__row-info{
+  
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.schedule__weekCheck{
+color: white;
+font-family: "Uni-Sans";
+font-size: 25px;
+}
