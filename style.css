@@ -154,7 +154,6 @@ margin-left: 2px;
     font-size: 24px;
     height: 29px;
     font-weight: 900;
-    text-align: center;
     align-items: center;
     color:#515151;
     margin-top: 10px;
@@ -208,3 +207,80 @@ margin-left: 2px;
     display: flex;
     flex-direction: row;
 }
+
+
+.double-row{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+
+/*
+.second
+{
+    margin: 10px 0 0 0;
+}*/
+
+.double__types{
+    display: flex;
+    flex-direction: row;
+    color:#417FA3;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.double__types p{
+    margin-left: 2px;
+}
+
+.double__cab{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Uni-Sans";
+    color: #515151;
+}
+
+.double__teacher{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: #515151;
+}
+
+
+.nameD{
+font-family: "Uni-Sans";
+color:#333333;
+text-align: center;
+display: flex;
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+}
+
+.letterD{
+    font-size: 20px;
+    font-weight: 900;
+    color:#45ABE5;
+    font-family: 'Amethysta';
+    text-shadow: 0px 1px 1px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.double-column{
+    display: flex;
+    flex-direction: column;
+    
+}
+/*
+.first{
+    margin-top: 5px;
+}
+
+*/
