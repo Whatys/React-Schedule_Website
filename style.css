@@ -1,6 +1,20 @@
-*{
-    margin: auto 0;
-}
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
 
 body{
     background-color:#333333;
@@ -29,7 +43,7 @@ body{
 
 .schedule__lessons-block{
     min-width: 234px;
-    height: 822px;
+    height: 922px;
     background-color: #ffffff;
     border-radius: 5px;
     display: flex;
@@ -72,9 +86,12 @@ body{
 }
 
 .schedule__leson{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 204px;
-    height: 123px;
-    background-color:#FFD3D3;
+    height: 150px;
+    background-color:#FFD3D3; 
     border-radius: 5px;
     margin-top: 16px;
     background-repeat: no-repeat;
@@ -154,7 +171,6 @@ margin-left: 2px;
     font-size: 24px;
     height: 29px;
     font-weight: 900;
-    text-align: center;
     align-items: center;
     color:#515151;
     margin-top: 10px;
@@ -175,7 +191,7 @@ margin-left: 2px;
 
 
 .schedule__time-block{
-    margin-top:41px;
+    margin-top:64px;
     width: 89px;
     height: 98px;
     background-color: #D9D9D9;
@@ -208,3 +224,97 @@ margin-left: 2px;
     display: flex;
     flex-direction: row;
 }
+
+
+.double-row{
+    display: flex;
+    flex-direction: row;
+    height: 15px;
+
+}
+
+.double-column{
+    margin: 10px;
+}
+
+/*
+.second
+{
+    margin: 10px 0 0 0;
+}*/
+
+.double__types{
+    display: flex;
+    flex-direction: row;
+    color:#417FA3;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Gloock', serif;
+}
+
+.double__types p{
+    margin-left: 2px;
+    
+}
+
+.double__cab{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Uni-Sans";
+    color: #515151;
+}
+
+.double__teacher{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: #515151;
+    font-family: 'Gloock', serif;
+}
+
+
+.nameD{
+font-family: "Uni-Sans";
+color:#333333;
+text-align: center;
+display: flex;
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+}
+
+.letterD{
+    font-size: 20px;
+    font-weight: 900;
+    color:#45ABE5;
+    font-family: 'Amethysta';
+    text-shadow: 0px 1px 1px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gloock', serif;
+}
+
+.double-column{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.lesson-2{
+    
+   
+    background-image: url(./Images/lesson.png);
+    
+}
+
+/*
+.first{
+    margin-top: 5px;
+}
+
+*/

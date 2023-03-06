@@ -1,16 +1,11 @@
-const Monday = {
-
-    Lesson_1: {Name:'ASW', type:'lab', cab:'145',week:"imp", teacher:'M.Croitor' },
-    Lesson_2: "CNMO",
-    Lesson_3: "CNMO",
-    Lesson_4: "JAVA",
-    Lesson_5: "CNMO"
 
 
-}
+/*
+const af = document.querySelector(".test_one");
+af.textContent = Monday.Lesson_1.Name;
+console.log(af); */
 
-
-console.log(Monday);
+//console.log(Monday);
 
 
 const value = document.querySelector('.lesson-1')
@@ -35,7 +30,7 @@ secondName="Impara";
 startDate = new Date(2017,0,2); //first Monday of the year
 currentDate = new Date(); 
 weekNumber=Math.ceil((currentDate.getTime()-startDate.getTime())/86400000/7);
-document.write("<div style='color:#18bc9c;text-align:right;font-style:italic;'> Acum e săptămâna "+((weekNumber % 2)? firstName : secondName) +"");
+
 
 
 const week = document.querySelector('.schedule__weekCheck');
