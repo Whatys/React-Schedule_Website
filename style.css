@@ -1,6 +1,20 @@
-*{
-    margin: auto 0;
-}
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
 
 body{
     background-color:#333333;
@@ -29,7 +43,7 @@ body{
 
 .schedule__lessons-block{
     min-width: 234px;
-    height: 822px;
+    height: 922px;
     background-color: #ffffff;
     border-radius: 5px;
     display: flex;
@@ -72,9 +86,12 @@ body{
 }
 
 .schedule__leson{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 204px;
-    height: 123px;
-    background-color:#FFD3D3;
+    height: 150px;
+    background-color:#FFD3D3; 
     border-radius: 5px;
     margin-top: 16px;
     background-repeat: no-repeat;
@@ -174,7 +191,7 @@ margin-left: 2px;
 
 
 .schedule__time-block{
-    margin-top:41px;
+    margin-top:64px;
     width: 89px;
     height: 98px;
     background-color: #D9D9D9;
@@ -212,9 +229,14 @@ margin-left: 2px;
 .double-row{
     display: flex;
     flex-direction: row;
-   
+    height: 15px;
 
 }
+
+.double-column{
+    margin: 10px;
+}
+
 
 /*
 .second
@@ -228,10 +250,13 @@ margin-left: 2px;
     color:#417FA3;
     font-size: 20px;
     font-weight: 900;
+    font-family: 'Gloock', serif;
+
 }
 
 .double__types p{
-    margin-left: 2px;
+    margin-left: 2px;   
+
 }
 
 .double__cab{
@@ -249,6 +274,7 @@ margin-left: 2px;
     text-align: center;
     font-size: 15px;
     color: #515151;
+    font-family: 'Gloock', serif;
 }
 
 
@@ -271,16 +297,16 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Gloock', serif;
 }
 
 .double-column{
     display: flex;
     flex-direction: column;
     
-}
-/*
-.first{
-    margin-top: 5px;
+
+    
 }
 
-*/
+
+
